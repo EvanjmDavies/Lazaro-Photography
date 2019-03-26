@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="animated fadeIn">
+  <head>
+    <title>Vincent Lazaro</title>
+    <link rel="icon" href="icons/camera.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Lato:100,200,300,400,500,600,700|Work+Sans:100,200,400|Allura:400" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- scroll-reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/jquery.cycle2.min.js"></script>
+  </head>
+
+
+  <body>
+
+      <div id="overlay">
+        <div class="spinner"></div>
+      </div>
+
+    <div id="parallax"></div>
+
+    <div class="container1" id="container1">
+      <nav class="mainNav">
+        <header>
+            <div class="main-header">
+              <div class='container'>
+                <div class='nav'>
+                   <ul>
+                    <li class='nav-main'><a href='#container1'>Home</a></li>
+                    <li class='nav-about'><a href='#container3'>About</a> </li>
+                    <li class='nav-port'><a href='#underline'>Portfolio</a></li>
+                    <li class='nav-contact'><a href='#footer'>Get in Touch</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </header>
+    </nav>
+
+      <div class="main-title">
+        <div class="vincewrapper">
+          <h2 class="vince-text">VINCENTE | LAZARO</h2>
+          <img src="img/frame2.png" alt="Vincent Lazaro" class="frame">
+        </div>
+        <div class="line"></div>
+        <h1 id="portfolio">Portfolio</h1>
+        <div id="underline"></div>
+      </div>
+    </div>
+
+      <div class="container2" id="container2">
+        <div class="row">
+          <div class="column">
+            <img src="img/baby.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/church.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/girl.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/lauren.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/building-color.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/building.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/country.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/emma.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/gray.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/pier.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/road.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/vince.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/vince2.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/wall.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow cursor pic">
+          </div>
+          <div class="column">
+            <img src="img/vince3.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow cursor pic">
+          </div>
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 15</div>
+            <img src="img/baby.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 15</div>
+            <img src="img/church.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 15</div>
+            <img src="img/girl.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 15</div>
+            <img src="img/lauren.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 15</div>
+            <img src="img/building-color.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 15</div>
+            <img src="img/building.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 15</div>
+            <img src="img/country.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 15</div>
+            <img src="img/emma.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 15</div>
+            <img src="img/gray.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 15</div>
+            <img src="img/pier.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">10 / 15</div>
+            <img src="img/road.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">11 / 15</div>
+            <img src="img/vince.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">12 / 15</div>
+            <img src="img/vince2.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">13 / 15</div>
+            <img src="img/vince3.jpg" class="pic-modal">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">14 / 15</div>
+            <img src="img/wall.jpg" class="pic-modal">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+        <div class="center">
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/baby.jpg" style="width:100%" onclick="currentSlide(1)" alt="Baby">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/church.jpg" style="width:100%" onclick="currentSlide(2)" alt="Church">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/girl.jpg" style="width:100%" onclick="currentSlide(3)" alt="Oh Mamma">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/lauren.jpg" style="width:100%" onclick="currentSlide(4)" alt="Crudge">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/building-color.jpg" style="width:100%" onclick="currentSlide(5)" alt="Pretty Colours">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/building.jpg" style="width:100%" onclick="currentSlide(6)" alt="Lonely Bird">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/country.jpg" style="width:100%" onclick="currentSlide(7)" alt="Over the green fields">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/emma.jpg" style="width:100%" onclick="currentSlide(8)" alt="The Ex">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/gray.jpg" style="width:100%" onclick="currentSlide(9)" alt="Gray">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/pier.jpg" style="width:100%" onclick="currentSlide(10)" alt="Sick Pier">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/road.jpg" style="width:100%" onclick="currentSlide(11)" alt="Top Gear Potential">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/vince.jpg" style="width:100%" onclick="currentSlide(12)" alt="V">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/vince2.jpg" style="width:100%" onclick="currentSlide(13)" alt="V">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/vince3.jpg" style="width:100%" onclick="currentSlide(14)" alt="V">
+          </div>
+          <div class="column2">
+            <img class="demo cursor pic2" src="img/wall.jpg" style="width:100%" onclick="currentSlide(15)" alt="V on a wall">
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="container3" id="container3">
+        <div class="wrapper1">
+          <h2 class="text" id="title">Vincente Sylvester Lazaro</h2>
+          <h3 class="text">'When I'm not capturing Kodak moments, I'm most likely losing myself to music'</h3>
+        </div>
+        <div class="wrapper2">
+          <div class="cycle-slideshow">
+            <span class="cycle-pager"></span>
+            <img class="vince" src="img/vince.jpg" alt="vince">
+            <img class="vince2" src="img/vince7.jpg" alt="vince2">
+            <img class="vince3" src="img/vince3.jpg" alt="vince3">
+          </div>
+        </div>
+      </div>
+
+  <footer id="footer">
+    <p class="footer-name">Vincente Lazaro</p>
+    <p class="footer-dev">Photographer</p>
+    <p class="footer-email">vincentlazaro@gmail.com</p>
+    <p class="footer-email">+447904404041</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com/eeeeeeeeevan" target="_blank" class="facebook social-icon"></a>
+      <a href="https://www.linkedin.com/in/evan-meredith-davies-15b32b137/" target="_blank" class="linkedin social-icon"></a>
+      <a href="https://github.com/EvanjmDavies" target="_blank" class="github social-icon"></a>
+      <a href="https://dribbble.com/EvanjmDavies" target="_blank" class="dribbble social-icon"></a>
+      <a href="https://www.instagram.com/yamafunkula/" target="_blank" class="instagram social-icon"></a>
+    </div>
+    <p class="copyright">Copyright Vincent Lazaro 2018 ©</p>
+
+  </footer>
+
+
+
+
+    <!--photo slides -->
+
+
+    <script>
+      function openModal() {
+        document.getElementById('myModal').style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+    </script>
+
+
+
+  <!-- Smooth Scrolling -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+
+  <!-- Screen Loader -->
+
+  <script>
+  var overlay = document.getElementById("overlay");
+
+  window.addEventListener('load', function(){
+    overlay.style.opacity = '0';
+  })
+</script>
+
+
+
+  <!-- Scroll Reveal -->
+
+  <script>
+
+    window.sr =ScrollReveal();
+    sr.reveal(".column", {
+      duration: 1000,
+      origin: 'bottom',
+      distance: '100px'
+    });
+
+    sr.reveal(".wrapper1", {
+      duration: 500,
+      origin: 'left',
+      distance: '100px'
+    });
+
+    sr.reveal(".wrapper2", {
+      duration: 500,
+      origin: 'right',
+      distance: '100px'
+    });
+
+  </script>
+
+
+  <!-- Parallax -->
+  <script>
+  function parallax(){
+    var parallax = document.getElementById('parallax');
+    parallax.style.top = (window.pageYOffset / 5)+'px';
+  }
+  window.addEventListener("scroll", parallax, false);
+  </script>
+
+
+  </body>
+</html>
