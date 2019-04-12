@@ -301,7 +301,8 @@ width: 1000px;
 }
 
 .pic-modal {
-  max-height: 70vh;
+  max-height: 80vh;
+  max-width: 100%;
 }
 
 .center {
